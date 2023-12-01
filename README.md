@@ -1,2 +1,2 @@
 # IAM-Control-for-AWS-S3
-Create a user, a group for that user, an IAM policy, attach that policy to the group, and then add user to that group using terraform
+Here’s the scenario: Imagine you're tasked with creating a secure AWS environment for a development team. You need to ensure that developers have access only to necessary AWS services for their job (S3 in this instance). For this, you will create an S3 resource, then IAM user, a group named Developers, an IAM policy that grants access to specific AWS services, and then you'll attach this policy to the group and add the user to this group.
